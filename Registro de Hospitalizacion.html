@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospitak</title>
+	<link rel="stylesheet" href="COBAEH.css">
+</head>
+<body>
+
+<h1>Registro de Hospitalizacion</h1>
+
+<form>
+
+<table border="1">
+
+  <tr>
+  
+      <p><th colspan="2"><label>Institucion de Salud</label></th></p>
+	  
+  </tr>
+  <tr>
+  
+      <td>Instituto</td>
+	  
+    <td>
+       <select>
+          <option>IMSS</option>
+          <option>ISSSTE</option>
+       </select>
+	   
+    </td>
+  </tr>
+  
+  <tr>
+  
+      <td><label>NSS</label></td>
+      <td><input type="text" placeholder="Escriba su NSS"></td>
+	  
+  </tr>
+
+  <tr>
+      <p><th colspan="2">Datos de la Persona</th></p>
+		
+  </tr>
+	
+  <tr>
+	
+      <td>Nombre</td>
+      <td><input type="text" placeholder="Escriba su Nombre"></td>
+		
+  </tr>
+	
+  <tr>
+	
+      <td>Apellido Paterno</td>
+      <td><input type="text" placeholder="Escriba su Apellido"></td>
+		
+  </tr>
+	
+  <tr>
+	
+      <td>Apellido Materno</td>
+      <td><input type="text" placeholder="Escriba su Apellido"></td>
+		
+  </tr>
+	
+  <tr>
+	
+      <td>Edad</td>
+      <td><input type="number" placeholder="Escriba su edad"></td>
+		
+  </tr>
+	
+  <tr>
+	
+      <td>Sexo</td>
+	  
+      <td>
+         <select>
+                <option>Masculino</option>
+                <option>Femenino</option>
+         </select>
+        </td>
+		
+    </tr>
+
+    <tr>
+        <p><th colspan="2">Información General</th></p>
+    </tr>
+    <tr>
+        <td>CURP</td>
+        <td><input type="text" placeholder="Escriba su CURP"></td></td>
+    </tr>
+    <tr>
+        <td>Nacionalidad</td>
+        <td><input type="text" placeholder="Escriba su Nacionalidad"></td></td>
+    </tr>
+    <tr>
+        <td>Localidad</td>
+        <td><input type="text" placeholder="Escriba su Localidad"></td>
+    </tr>
+    <tr>
+        <td>Religión</td>
+        <td><input type="text" placeholder="Escriba su Religion"></td>
+    </tr>
+    <tr>
+        <td>Fecha de ingreso</td>
+        <td><input type="date"></td>
+    </tr>
+
+    <tr>
+        <p><th colspan="2">Información Médica</th></p>
+    </tr>
+	
+	<tr>
+        <td>¿Tiene usted alguna Alergia?<i></i></td>
+        <td><input type="radio" name="alergia" value="Si"><span>Si </span></td>
+        <td><input type="radio" name="alergia" value="No"><span>No </span></td>
+		
+	 </tr>
+		
+   
+    <tr>
+        <td>¿Cual?</td>
+        <td><input type="text" placeholder="Escriba sus Alergias"></td>
+	   
+    </tr>
+	
+    <tr>
+        <td>¿Tiene usted una Enfermedad Cronica?<i></i></td>
+        <td><input type="radio" name="endermedad" value="Si"><span>Si </span></td>
+        <td><input type="radio" name="enfermedad" value="No"><span>No </span></td>
+		
+	 </tr>
+		
+		<td>¿Cual?<i></i></td>
+        <td><input type="text" placeholder="Escriba su Enfermedad"></td>
+    </tr>
+    <tr>
+        <td>Tipo de sangre</td>
+        <td>
+            <select>
+                <option>A+</option><option>A-</option>
+                <option>B+</option><option>B-</option>
+                <option>AB+</option><option>AB-</option>
+                <option>O+</option><option>O-</option>
+            </select>
+        </td>
+    </tr>
+	
+	 <tr>
+        <td>Motivo de consulta</td>
+        <td><input type="text" placeholder="Escriba su Motivo"></td>
+    </tr>
+
+    <tr>
+        <th colspan="2">Signos Vitales</th>
+    </tr>
+    <tr>
+        <td>Peso</td>
+        <td><input type="text" placeholder="Escriba su Peso"></td>
+    </tr>
+    <tr>
+        <td>Talla</td>
+        <td><input type="text" placeholder="Escriba su Talla"></td>
+    </tr>
+    <tr>
+        <td>Temperatura</td>
+        <td><input type="text" placeholder="Escriba su Temperatura"></td></td>
+    </tr>
+    <tr>
+        <td>Presion</td>
+        <td><input type="text" placeholder="Escriba su Presion"></td>
+    </tr>
+    <tr>
+        <td>Saturacion</td>
+        <td><input type="text" placeholder="Escriba su Saturacion"></td>
+    </tr>
+
+</table>
+
+<br>
+ <input  type="button" value="Registrar Paciente" onClick="alert('Registro Completo')">
+ <input type="reset" value="Guardad"> 
+ 
+</form>
+
+</body>
+</html>
